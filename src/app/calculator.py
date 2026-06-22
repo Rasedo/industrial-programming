@@ -1,8 +1,3 @@
-import math
-import sys
-from datetime import datetime
-
-
 def calculate_value(x: float, y: float, op: str) -> float | None:
     """Example of a docstring."""
     if op == "add":

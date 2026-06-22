@@ -3,7 +3,7 @@ from unittest.mock import patch
 from app.client import fetch_data
 
 
-@patch('app.client.requests.get')
+@patch("app.client.requests.get")
 def test_fetch_data_success(mock_get):
     # Настраиваем mock-объект: что он должен вернуть
     mock_get.return_value.status_code = 200
